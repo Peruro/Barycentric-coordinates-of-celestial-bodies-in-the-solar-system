@@ -8,7 +8,7 @@ from astropy.time import Time
 
 # configuramos las efemérides
 solar_system_ephemeris.set('builtin')
-t = Time('2024-06-19')
+t = Time('2100-01-01')
 
 # Función para obtener posiciones de los planetas
 def get_planet_positions(t):
